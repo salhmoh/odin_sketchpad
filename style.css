@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid red;
+    height: 100vh;
+    width: 100vw;
+    gap: 20px;
+}
+#head {
+    background-color: rgb(192, 115, 94);
+    padding: 10px;
+    text-align: center;
+}
+#pad {
+    display: flex;
+  flex-wrap: wrap;
+ 
+}
+#pad div {
+    align-self: center;
+    justify-self: center;
+    border: 1px solid #ccc;
+}
